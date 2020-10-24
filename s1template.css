@@ -15,6 +15,10 @@ body{
     background-color: white;
 }
 
+.navbar-expand{
+    margin-bottom: 0px;
+}
+
 .collapse{
     display: inline-block;
 }
@@ -172,6 +176,67 @@ body{
     padding-left: 450px;
 }
 
+.text2{
+    text-align: center;
+    font-size: 22px;
+    padding-left: 420px;
+}
+
 .style{
     color: cadetblue;
+}
+
+.list-group{
+    padding-left: 40px;
+    border-color: white;
+}
+
+.text3{
+    text-align: center;
+    font-size: 22px;
+    padding-left: 540px;
+}
+
+.sticky-top{
+    background-color: azure;
+    margin-bottom: 0px;
+}
+
+.footer-color{
+    background-color: #142141;
+}
+
+.footer{
+    background: rgba(0,0,0,0.5);
+    text-align: center;
+    padding: 20px;
+}
+
+.quick-links{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    display: inline-block;
+    min-width: 30%;
+}
+
+.quick-links ul{
+    padding: 0;
+}
+
+.quick-links li{
+    list-style: none;
+    padding: 10px;
+    font-weight: 300;
+}
+
+.a-links:hover{
+    color: #fd5e53;
+}
+
+.copyrights{
+    font-size: 16px;
+    font-family: verdana, arial, Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin: 15px;
 }
