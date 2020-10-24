@@ -3,49 +3,50 @@
 }
 
 body{
-    margin: 0;
+    margin: 0px;
 }
 
-.logo{
-    display: inline-block;
-    margin: 10px;
+.navbar-brand{
+    margin: 50px;
+    width: 160px;
 }
 
-.angle-down{
+.navbar{
     background-color: white;
-    border-color: white;
-    color: black;
 }
 
-.menu{
+.collapse{
     display: inline;
 }
 
-.menu-ul{
+.navbar-nav{
     margin: 0px;
     padding: 0px;
     float: right;
 }
 
-.menu-ul li{
-    font-size: 18px;
+.collapse .navbar-nav .nav-item{
     list-style: none;
     display: inline-block;
-    padding: 25px 25px 26px 25px;
-    padding-top: 0px;
-    color: black;
+    padding-top: 20px;
+    font-size: 18px;
+    padding-right: 50px;
+    color: #333;
 }
 
-.menu-ul li:hover{
+.nav-link{
+    color: black;
+    text-decoration: unset;
+}
+
+.nav-link:hover{
+    color: black;
     text-decoration: underline;
 }
 
-.right{
-    float: right;
-    top: 0px;
-    padding-right: 40px;
-    font-size: 10px;
-    padding-left: 60px;
+.angle-down{
+    background-color: white;
+    border-color: white;
 }
 
 .page1{
@@ -72,11 +73,6 @@ body{
     width: 10%;
     height: 55;
     display: inline-block;
-}
-
-.secondNav{
-    background-color: white;
-    padding-left: 60px;
 }
 
 .sNav li{
@@ -106,7 +102,7 @@ body{
     padding-right: 35px;
     padding-left: 15px;
     padding-top: 0px;
-    padding-bottom: 19px;
+    padding-bottom: 15px;
     background-color: white;
 }
 
@@ -116,8 +112,4 @@ body{
 
 .sNav .midLeft .get-start-btn li:hover{
     text-decoration: underline;
-}
-
-.deal{
-    
 }
