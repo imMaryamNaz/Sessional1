@@ -1,0 +1,124 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+}
+
+.logo{
+    display: inline-block;
+    margin: 10px;
+}
+
+.angle-down{
+    background-color: white;
+    border-color: white;
+    color: black;
+}
+
+.menu{
+    display: inline;
+}
+
+.menu-ul{
+    margin: 0px;
+    padding: 0px;
+    position: fixed;
+    float: right;
+}
+
+.menu-ul li{
+    font-size: 18px;
+    list-style: none;
+    display: inline-block;
+    padding: 25px 25px 26px 25px;
+    padding-top: 0px;
+    color: black;
+}
+
+.menu-ul li:hover{
+    text-decoration: underline;
+}
+
+.right{
+    float: right;
+    top: 0px;
+    padding-right: 40px;
+    font-size: 10px;
+    padding-left: 60px;
+}
+
+.page1{
+    background-image: url(./img/hero-shared-L.jpg);
+    height: max-content;
+    color: white;
+    padding-left: 110px;
+}
+
+.size{
+    font-size: 50px;
+}
+
+.SecondSize{
+    font-size: 25px;
+}
+
+.button{
+    border: 1px solid #a02027;
+    border-radius: 50px;
+    background: #a02027;
+    width: max-content;
+    color: white;
+    width: 10%;
+    height: 55;
+    display: inline-block;
+}
+
+.secondNav{
+    background-color: white;
+    padding-left: 60px;
+}
+
+.sNav li{
+    font-size: 15px;
+    list-style: none;
+    display: inline-block;
+    padding-left: 30px;
+    padding-top: 20px;
+    color: black;
+}
+
+.sNav li:hover{
+    text-decoration: underline;
+    color: teal;
+}
+
+.sNav .midLeft{
+    float: right;
+    padding-right: 500px;
+    top: 0px;
+}
+
+.sNav .midLeft .get-start-btn{
+    color: #3396b0;
+    border: 3px solid;
+    border-radius: 5px;
+    padding-right: 35px;
+    padding-left: 15px;
+    padding-top: 0px;
+    padding-bottom: 19px;
+    background-color: white;
+}
+
+.sNav .midLeft .get-start-btn li{
+    color:  #3396b0;
+}
+
+.sNav .midLeft .get-start-btn li:hover{
+    text-decoration: underline;
+}
+
+.deal{
+    
+}
